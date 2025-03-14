@@ -22,7 +22,7 @@ public class KafkaStringConsumer {
 
     @KafkaListener(topics = "bootcamp-Topic2" , groupId = "group_id2")
     public void consume2(RequestQueueBc message) {
-        logger.info("Actualizando monto del monedero 2...");
+        logger.info("Actualizando monto del monedero topic 2...");
         walletBcService.find(message.getIdWallteBc())
                 .flatMap(c -> {
                     message.setWalletBc(c);

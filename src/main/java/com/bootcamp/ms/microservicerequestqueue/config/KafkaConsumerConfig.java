@@ -1,5 +1,6 @@
 package com.bootcamp.ms.microservicerequestqueue.config;
 
+import com.bootcamp.ms.microservicerequestqueue.entity.RequestQueueBc;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.context.annotation.Bean;
@@ -9,7 +10,6 @@ import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
-import com.bootcamp.ms.commons.entity.RequestQueueBc;
 import java.util.HashMap;
 import java.util.Map;
 

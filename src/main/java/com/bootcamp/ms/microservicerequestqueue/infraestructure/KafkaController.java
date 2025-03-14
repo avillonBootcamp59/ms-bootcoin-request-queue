@@ -1,6 +1,6 @@
 package com.bootcamp.ms.microservicerequestqueue.infraestructure;
 
-import com.bootcamp.ms.commons.entity.RequestQueueBc;
+import com.bootcamp.ms.microservicerequestqueue.entity.RequestQueueBc;
 import com.bootcamp.ms.microservicerequestqueue.producer.KafkaStringProducer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

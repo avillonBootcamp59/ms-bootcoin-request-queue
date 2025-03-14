@@ -1,9 +1,9 @@
 package com.bootcamp.ms.microservicerequestqueue.service;
 
-import com.bootcamp.ms.commons.entity.WalletBc;
+import com.bootcamp.ms.microservicerequestqueue.entity.BootCoin;
 import reactor.core.publisher.Mono;
 
 public interface WalletBcService {
 
-    Mono<WalletBc> find(String id);
+    Mono<BootCoin> find(String id);
 }

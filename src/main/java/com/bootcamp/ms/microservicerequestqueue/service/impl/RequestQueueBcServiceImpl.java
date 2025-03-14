@@ -1,12 +1,12 @@
 package com.bootcamp.ms.microservicerequestqueue.service.impl;
 
+import com.bootcamp.ms.microservicerequestqueue.entity.RequestQueueBc;
 import com.bootcamp.ms.microservicerequestqueue.producer.repository.RequestQueueBcRepository;
 import com.bootcamp.ms.microservicerequestqueue.service.RequestQueueBcService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import com.bootcamp.ms.commons.entity.RequestQueueBc;
 
 @Service
 public class RequestQueueBcServiceImpl implements RequestQueueBcService {

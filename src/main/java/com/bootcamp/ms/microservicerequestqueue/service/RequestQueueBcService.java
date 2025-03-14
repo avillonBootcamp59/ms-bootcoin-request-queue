@@ -1,7 +1,7 @@
 package com.bootcamp.ms.microservicerequestqueue.service;
 
+import com.bootcamp.ms.microservicerequestqueue.entity.RequestQueueBc;
 import reactor.core.publisher.Flux;
-import com.bootcamp.ms.commons.entity.RequestQueueBc;
 import reactor.core.publisher.Mono;
 
 public interface RequestQueueBcService {
